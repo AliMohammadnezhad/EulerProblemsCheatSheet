@@ -26,3 +26,16 @@ def factorial(n):
 
 print (findSmallestMultiple(10)) # 2520
 print (findSmallestMultiple(20))
+
+# method 2
+
+import numpy as np
+
+lcm = np.lcm.reduce([11, 12, 13, 14, 15, 16, 17, 18, 19, 20])
+
+print(lcm)
+
+
+
+
+
